@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Assignment</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 5px;
+    }
+    body {
+      height: 100vh;
+      margin-left: 10px;
+    }
+    button {
+      width: 100px;
+      background-color: rgb(45, 45, 247);
+      color: wheat;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      position: relative;
+      left: 7px;
+    }
+    input {
+      border: blue solid 2px;
+      color: rgb(0, 0, 0);
+      font-size: 21px;
+      box-sizing: content-box;
+      position: relative;
+      left: 7px;
+    }
+  </style>
+  <body>
+    <div>
+      <h3>
+        1. Write a JavaScript function to get an array and to read the first
+        element of an array. Check whether it is prime or not.
+      </h3>
+      <button onclick=" prime()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        2. Write a JavaScript program to find the most frequent item of an
+        array.
+      </h3>
+      <button onclick=" frequentitem()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        3. Write a JavaScript program which accept a string as input and swap
+        the case of each character. For example if you input 'The Quick Brown
+        Fox' the output should be 'tHE qUICK bROWN fOX'.
+      </h3>
+      <input
+        id="input"
+        placeholder="Type here to see the change"
+        type="text"
+        pattern="[A-Za-z]"
+        onkeyup="myFunction()"
+      /><span id="preview"></span>
+    </div>
+    <div>
+      <h3>
+        4. Write a JavaScript program to find the sum of squares of the elements
+        of an array.
+      </h3>
+      <button onclick=" sum_sq()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        5. Write a JavaScript for loop that will iterate from 0 to 15. For each
+        iteration, check if the current number is odd or even, and display the
+        message to the screen as odd or even.
+      </h3>
+      <button onclick=" oddeven()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        6. Write a JavaScript function to truncate a string if it is longer than
+        the specified number of characters.
+      </h3>
+      <button onclick=" truncate()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        7.Write a JavaScript program that accept two integers and display the
+        larger using findLarge() function.
+      </h3>
+      <button onclick=" findLarge()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        8. Write a JavaScript program using for…in to read the objects from an
+        array entered by an user and to arrange it in alphabetical order.
+      </h3>
+      <button onclick=" sorting()">view o/p in console</button>
+    </div>
+    <div>
+      <h3>
+        9.Write a JavaScript program to print the letters of the word
+        “Javascript” as below in each line using for…of.
+      </h3>
+      <button onclick=" javascript()">view o/p</button>
+    </div>
+    <div>
+      <h3>
+        10.Write a JavaScript program to construct the following pattern, using
+        a nested for loop
+      </h3>
+      <button onclick=" star()">view o/p</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
